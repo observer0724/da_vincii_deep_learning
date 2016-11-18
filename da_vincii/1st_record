@@ -1,0 +1,128 @@
+Initialized
+Minibatch loss at step 0: 46.047638
+Minibatch accuracy: 56.0%
+Validation accuracy: 48.3%
+--------------------------------------
+Minibatch loss at step 10: 2.474552
+Minibatch accuracy: 56.0%
+Validation accuracy: 63.3%
+--------------------------------------
+Minibatch loss at step 20: 1.086587
+Minibatch accuracy: 68.0%
+Validation accuracy: 66.7%
+--------------------------------------
+Minibatch loss at step 30: 0.994407
+Minibatch accuracy: 65.0%
+Validation accuracy: 65.0%
+--------------------------------------
+Minibatch loss at step 40: 0.826766
+Minibatch accuracy: 71.0%
+Validation accuracy: 65.0%
+--------------------------------------
+Minibatch loss at step 50: 0.692113
+Minibatch accuracy: 74.0%
+Validation accuracy: 66.7%
+--------------------------------------
+Minibatch loss at step 60: 0.721555
+Minibatch accuracy: 73.0%
+Validation accuracy: 68.3%
+--------------------------------------
+Minibatch loss at step 70: 0.494459
+Minibatch accuracy: 73.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 80: 0.703374
+Minibatch accuracy: 71.0%
+Validation accuracy: 68.3%
+--------------------------------------
+Minibatch loss at step 90: 0.558346
+Minibatch accuracy: 77.0%
+Validation accuracy: 68.3%
+--------------------------------------
+Minibatch loss at step 100: 0.464611
+Minibatch accuracy: 85.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 110: 0.446225
+Minibatch accuracy: 81.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 120: 0.427200
+Minibatch accuracy: 80.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 130: 0.391774
+Minibatch accuracy: 81.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 140: 0.392666
+Minibatch accuracy: 84.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 150: 0.351384
+Minibatch accuracy: 83.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 160: 0.424836
+Minibatch accuracy: 81.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 170: 0.352111
+Minibatch accuracy: 86.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 180: 0.321615
+Minibatch accuracy: 88.0%
+Validation accuracy: 70.0%
+--------------------------------------
+Minibatch loss at step 190: 0.320745
+Minibatch accuracy: 86.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 200: 0.316990
+Minibatch accuracy: 84.0%
+Validation accuracy: 68.3%
+--------------------------------------
+Minibatch loss at step 210: 0.291872
+Minibatch accuracy: 87.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 220: 0.301426
+Minibatch accuracy: 87.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 230: 0.302226
+Minibatch accuracy: 88.0%
+Validation accuracy: 68.3%
+--------------------------------------
+Minibatch loss at step 240: 0.357700
+Minibatch accuracy: 83.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 250: 0.292056
+Minibatch accuracy: 86.0%
+Validation accuracy: 73.3%
+--------------------------------------
+Minibatch loss at step 260: 0.271105
+Minibatch accuracy: 88.0%
+Validation accuracy: 71.7%
+--------------------------------------
+Minibatch loss at step 270: 0.278537
+Minibatch accuracy: 91.0%
+Validation accuracy: 73.3%
+--------------------------------------
+Minibatch loss at step 280: 0.268800
+Minibatch accuracy: 87.0%
+Validation accuracy: 73.3%
+--------------------------------------
+Minibatch loss at step 290: 0.241906
+Minibatch accuracy: 88.0%
+Validation accuracy: 73.3%
+--------------------------------------
+Test accuracy: 74.2%
+Excution time: 35.44min
+Traceback (most recent call last):
+  File "/home/observer0724/Desktop/net2.py", line 205, in <module>
+    save_path = saver.save(session, "model.ckpt")
+NameError: name 'saver' is not defined
+[Finished in 2140.308s]
