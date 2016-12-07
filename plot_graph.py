@@ -5,6 +5,12 @@ op = {}
 op[0] = 'tf.train.GradientDescentOptimizer'
 op[1] = 'tf.train.AdadeltaOptimizer'
 op[2] = 'tf.train.AdagradOptimizer'
+op[6] = 'tf.train.ProximalGradientDescentOptimizer'
+# op[1] = 'tf.train.MomentumOptimizer'
+# op[2] = 'tf.train.AdamOptimizer'
+op[3] = 'tf.train.FtrlOptimizer'
+op[4] = 'tf.train.ProximalAdagradOptimizer'
+op[5] = 'tf.train.RMSPropOptimizer'
 # op[3] = 'tf.train.AdagradDAOptimizer'
 for k in range(3):
     l = {}
