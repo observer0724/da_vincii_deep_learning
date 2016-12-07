@@ -12,5 +12,6 @@ for i in range(10):
     folder = str(patch_size)+'*'+str(patch_size)+'with'+str(depth1)+'and'+str(depth2)+'_'+op[0]
     f=open('/home/yida/Desktop/da_vincii/31*31_images/'+folder+'/'+folder+'_record.txt','rb')
     lines = f.readlines()
-    l.append(lines[300][15:].strip('\n'))
-print (l)
+    l.append(float(lines[300][15:].strip('%\n')))
+plt.plot(patch,l)
+plt.savefig(op[0]+str(depth1)+'and'+str(depth2)+'.jpg')
